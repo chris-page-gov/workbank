@@ -1,6 +1,6 @@
 {
   "name": "Workbank Development Environment (Codex Universal)",
-  "image": "ghcr.io/chris-page-gov/codex-universal:latest",
+  "image": "ghcr.io/openai/codex-universal:latest",
   
   "containerEnv": {
     "CODEX_ENV_PYTHON_VERSION": "3.12",
