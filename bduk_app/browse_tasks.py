@@ -36,7 +36,12 @@ def main():
             print("Goodbye!")
             break
         task = tasks[choice - 1]
-        print(f"\nResearch findings for '{task['task']}':\n{task['research_finding']}\n")
+        print("\n" + "="*60)
+        print(f"RESEARCH FINDINGS FOR: {task['task']}")
+        print("="*60)
+        print(f"{task['research_finding']}")
+        print("="*60)
+        input("\nPress Enter to continue...")
 
 
 if __name__ == '__main__':
