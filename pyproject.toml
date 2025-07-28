@@ -14,6 +14,11 @@ dependencies = [
     "notebook",
     "ipykernel",
     "datasets",
+    "streamlit",
+    # Additional dependencies for Jupyter notebooks
+    "scipy",           # Used for statistical functions (spearmanr, jensenshannon)
+    "plotly",          # Used for interactive plotting
+    "statsmodels",     # Used for statistical modeling and regression
 ]
 
 [project.optional-dependencies]
