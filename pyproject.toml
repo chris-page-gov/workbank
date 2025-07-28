@@ -1,0 +1,29 @@
+[project]
+name = "workbank"
+version = "0.1.0"
+description = "BDUK Task Browser and WORKBank applications"
+requires-python = ">=3.12"
+readme = "README.md"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib", 
+    "seaborn",
+    "jupyter",
+    "notebook",
+    "ipykernel",
+    "datasets",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "mypy",
+]
+
+[project.scripts]
+browse-tasks = "bduk_app.browse_tasks:main"
+gui-tasks = "bduk_app.gui_tasks:main"
