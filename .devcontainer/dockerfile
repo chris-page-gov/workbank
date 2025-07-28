@@ -1,0 +1,19 @@
+# .devcontainer/Dockerfile
+FROM ghcr.io/openai/codex-universal:latest
+
+# Allow overriding per-repo language versions
+ARG PYTHON_VERSION=3.12
+ARG NODE_VERSION=20
+ARG RUST_VERSION=1.87.0
+ARG GO_VERSION=1.23.8
+ARG SWIFT_VERSION=6.1
+
+# Configure environment variables
+ENV CODEX_ENV_PYTHON_VERSION=${PYTHON_VERSION} \
+    CODEX_ENV_NODE_VERSION=${NODE_VERSION} \
+    CODEX_ENV_RUST_VERSION=${RUST_VERSION} \
+    CODEX_ENV_GO_VERSION=${GO_VERSION} \
+    CODEX_ENV_SWIFT_VERSION=${SWIFT_VERSION}
+
+# Install the specified runtimes
+RUN bash setup_universal.sh
