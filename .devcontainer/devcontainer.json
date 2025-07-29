@@ -25,7 +25,7 @@
     }
   },
 
-  "forwardPorts": [8000, 8080, 5000],
+  "forwardPorts": [8000, 8080, 5000, 8501],
 
   "postCreateCommand": "pip install pandas numpy matplotlib seaborn jupyter notebook ipykernel datasets && curl -LsSf https://astral.sh/uv/install.sh | sh && echo 'export PATH=\"$HOME/.cargo/bin:$PATH\"' >> ~/.bashrc",
 
