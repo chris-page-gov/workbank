@@ -8,7 +8,7 @@ readme = "README.md"
 dependencies = [
     "pandas",
     "numpy",
-    "matplotlib", 
+    "matplotlib",
     "seaborn",
     "jupyter",
     "notebook",
@@ -16,9 +16,10 @@ dependencies = [
     "datasets",
     "streamlit",
     # Additional dependencies for Jupyter notebooks
-    "scipy",           # Used for statistical functions (spearmanr, jensenshannon)
-    "plotly",          # Used for interactive plotting
-    "statsmodels",     # Used for statistical modeling and regression
+    "scipy", # Used for statistical functions (spearmanr, jensenshannon)
+    "plotly", # Used for interactive plotting
+    "statsmodels", # Used for statistical modeling and regression
+    "openpyxl>=3.1.5",
 ]
 
 [project.optional-dependencies]
