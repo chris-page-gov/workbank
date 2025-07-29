@@ -39,9 +39,10 @@ streamlit run bduk_app/streamlit_tasks.py
 jupyter notebook analysis/
 ```
 
-### 3. Read the Background
+### 3. Read the Documentation
 - 📖 [BACKGROUND.md](BACKGROUND.md) - Research methodology and key findings
-- 📖 [DATA_README.md](DATA_README.md) - Data structure and usage examples
+- 📖 [DATA_README.md](DATA_README.md) - Data structure and usage examples  
+- 📖 [FIELD_DOCUMENTATION.md](FIELD_DOCUMENTATION.md) - Complete data dictionary with column descriptions
 
 ## Database Access
 
@@ -94,6 +95,7 @@ workbank/
 ├── 📄 README.md                    # This file - main project documentation
 ├── 📄 BACKGROUND.md                # Research background and methodology
 ├── 📄 DATA_README.md               # Detailed data download and usage guide
+├── 📄 FIELD_DOCUMENTATION.md       # Complete data dictionary with field descriptions
 ├── 📄 download_workbank_data.py    # Script to download WORKBank dataset locally
 ├── 📄 codebook.pdf                 # Data dictionary and variable documentation
 ├── 📄 pyproject.toml               # Python dependencies and project configuration
